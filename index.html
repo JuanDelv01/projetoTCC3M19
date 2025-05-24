@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catinder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#quem-somos">Quem somos</a></li>
+        <li><a href="#estatisticas">Estatísticas</a></li>
+        <li><a href="#adotar">Adotar</a></li>
+        <li><a href="#como-ajudar">Como ajudar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <canvas id="paw-canvas"></canvas>
+
+  
+    <section id="inicio" class="section" data-aos="fade-up">
+      
+      <div class="hero">
+        <h1><i class="fa-solid fa-paw"></i>CATINDER<i class="fa-solid fa-paw"></i></h1>
+        <p>Encontre seu meowtch perfeito</p>
+        <img class="gatoInicio" src="/img/gatoInicio.png" alt="">
+      </div>
+    </section>
+
+   <section id="quem-somos" class="section" data-aos="fade-up">
+  <div class="resgatos">resgatos <i class="fa-solid fa-shield-cat"></i></div>
+  <h2>Quem somos?</h2>
+  <p>Os resgatos é uma ONG criada por alunos da área de programação com o objetivo de ajudar os gatos abandonados, em situação de rua ou que sofrem com maus tratos</p>
+  
+  <div class="gatos-container">
+    <div class="gato-card">
+      <img src="/img/gato1.jpg" alt="Gato 1">
+    </div>
+    <div class="gato-card">
+      <img src="/img/gato2.jpg" alt="Gato 2">
+    </div>
+    <div class="gato-card">
+      <img src="/img/gato3.jpg" alt="Gato 3">
+    </div>
+    <div class="gato-card">
+      <img src="/img/gato4.jpg" alt="Gato 4">
+    </div>
+  </div>
+</section>
+
+    <section id="estatisticas" class="section" data-aos="fade-up">
+      <div class="resgatos"><i class="fa-solid fa-shield-cat"></i>resgatos</div>
+      <h2>Estatísticas</h2>
+      <p>Estatísticas Globais em Números e Percentuais de gatos abandonados no mundo</p>
+      <div class="grafico-container">
+  <canvas id="graficoGatos"></canvas>
+</div>
+
+
+    </section>
+
+    <section id="adotar" class="section" data-aos="fade-up">
+      <div class="resgatos">resgatos<i class="fa-solid fa-shield-cat"></i></div>
+      <h2>Adote um gatinho !</h2>
+      <p>Acesse nosso formulário para instruirmos aos gatos disponíveis. Para acesso prático, e localização de PetShops em sua região.</p>
+      <br>
+      <br>
+     <a href=""> <i class="fa-solid fa-cat fa-8x"></i>
+    </a>
+    <br>
+    <br>
+    <p>Acesse nosso formulário clicando no gato</p>
+    </section>
+
+    <section id="como-ajudar" class="section" data-aos="fade-up">
+      <div class="resgatos"><i class="fa-solid fa-shield-cat"></i>resgatos</div>
+      <h2>Colabore</h2>
+      <i class="fa-solid fa-hand-holding-heart fa-5x"></i>
+      <div class="ajuda-container">
+        <div class="ajuda-item">Doações</div>
+        <div class="ajuda-item">Instituições</div>
+        <div class="ajuda-item">Adoção Responsável</div>
+      </div>
+    </section>
+<footer>
+  <div class="footer-top">
+    <div class="footer-logo">resgatos<i class="fa-solid fa-shield-cat"></i></div>
+
+    <div class="footer-icons">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/juan-del/"><i class="fa-brands fa-github"></i></a> 
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a> 
+      <a href="#"><i class="fab fa-youtube"></i>   </a> 
+    </div>
+
+    <div class="footer-contacts">
+      <div><i class="fas fa-envelope">  catinderba@gmail.com</i> </div>
+      <div><i class="fa-solid fa-map-location-dot"></i></i> Catinho 12 / Gláub F. s/n - Mussurunga I - Salvador - BA, 41490-224</div>
+      <div><i class="fa-solid fa-phone"></i> (71) 99669-0849</div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    ©2024 Resgatos.
+  </div>
+</footer>
+  </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
